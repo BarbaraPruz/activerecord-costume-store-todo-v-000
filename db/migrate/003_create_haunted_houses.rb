@@ -11,7 +11,6 @@ class CreateHauntedHourses < ActiveRecord::Migration[4.2]
       t.string :opening_date
       t.string :closing_date
       t.text :description
-      t.timestamps
     end
   end
 
